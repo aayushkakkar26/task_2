@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+nav {
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #64c9cf, #e4d099);
+  color: #eeeaea;
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 35px;
+}
+
+.navitems button {
+  width: 25%;
+  height: 10vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: transparent;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: black;
+  margin: auto 0px;
+}
+
+.fetchbtn:hover {
+  background-color: rgba(240, 217, 217, 0.747);
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom right, #c2ffd9, #64c9cf);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  color: rgb(41, 2, 80);
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
+.profile_cont {
+  border-radius: 15%;
+  background-image: radial-gradient(grey, #ffe6e6);
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.text-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7)
+    url("https://previews.123rf.com/images/oly5/oly51507/oly5150700770/42469939-abstract-blue-background-light-color-vintage-grunge-background-texture-design.jpg");
+  background-size: cover;
+}
